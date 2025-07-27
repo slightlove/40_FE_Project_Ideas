@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  to-do:
+    build: .
+    container_name: nextjs-todo
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    # volumes 可依需求掛載原始碼，開發時可啟用
+    # volumes:
+    #   - ./:/app

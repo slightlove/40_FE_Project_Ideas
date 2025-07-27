@@ -1,0 +1,19 @@
+.self {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  padding: 17px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(-77deg, #D8605B 0%, #F4C27F 100%);
+}
+
+.self .icon {
+  margin-left: 8px;
+}

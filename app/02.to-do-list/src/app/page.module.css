@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  font-family: var(--font-mono);
+}
+
+.content {
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+.title {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 13px;
+}
+
+.context {
+  width: 281px;
+  font-size: 12px;
+  margin: 0 auto;
+}
